@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BotNav.HomeFragment">
+
+    //NIM     : 10119115
+    //NAMA    : Weldira Tarigan
+    //KELAS   : IF-3
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_places"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
